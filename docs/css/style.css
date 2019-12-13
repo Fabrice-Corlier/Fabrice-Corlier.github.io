@@ -1,0 +1,100 @@
+header {
+    width: 100%;
+    background-color: teal;
+    height: 200px;
+}
+#name {
+    position:absolute; 
+    text-align: center;
+    margin-left: 44%;
+    margin-top: 3em;
+}
+#pic {
+    position:absolute; 
+    margin:top 20px; 
+    transform: translateY(50px); 
+    transform: translateX(30px); 
+}
+body {
+    font-family : "Avenir";
+    height: 1500px;
+    background: linear-gradient(141deg, rgb(55, 82, 143) 0%, rgb(40, 39, 65) 75%, #1f2020 90%);
+  }
+main{
+    margin-left: 50px;
+}
+table.type1 {
+    border-style: solid;
+    border-width: 1px;
+    border-color: blue;
+    border-collapse: collapse;
+    text-align: center;
+    width: 50%;
+}
+
+table.type1 th {
+    border-bottom-style: none;
+    border-bottom-width: 4px;
+    background-color: grey;
+}
+
+table.type1 td {
+    border-style: none;
+    border-width: 2px;
+    color: black;
+    font-style: italic;
+}
+
+h1 {
+    color: whitesmoke;
+}
+
+h2 {
+    color: lightblue;
+}
+p {
+    color: lightblue;
+}
+li {
+    color: lightblue;
+}
+ul {
+    color: lightblue;
+}
+b {
+    color: whitesmoke;
+}
+
+table {
+    background-color: lightgrey;
+    width: 300px;
+    padding: 50px;
+    margin: 20px;
+}
+
+#info {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background-color: lightgrey;
+    width: 250px;
+    border: 1px solid blue;
+    padding: 15px;
+    margin: right;
+    text-align: right;
+    transform: translateX(-10px);
+}
+
+.listInfo {
+    list-style-type: none;
+    color: black;
+}
+
+#PP{
+    margin-top:3em;
+
+}
+header{
+    background: linear-gradient(90deg, rgb(236, 184, 39) 0%, rgb(184, 100, 4) 23%, #3274ee 46%, #022058 69%, #010a1d 92%);
+  
+}
